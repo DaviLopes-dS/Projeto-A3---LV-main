@@ -1,0 +1,12 @@
+Devido aos diferentes ambientes adotados para efetuar a execução do programa, faz-se necessário calibrar devidamente
+a máquina em questão para que ela não sofra problemas no processo. Para isso, torna-se vital tomar alguns passos
+específicos antes de dar "run" no programa no VsCode, sendo eles:
+1 - Instalar o Maven na máquina em questão, em sua última versão; 
+2 - Abrir o VsCode após a instalação do Maven ser concluída, e abrir a aba correspondente à ele no VsCode após abrir
+o projeto, em seguida indo em Lifecycle e, depois, dar dois cliques em "package" para instalar as dependências do 
+spring-boot; 
+3 - Abrir uma instância do terminal e, no diretório do "client" em src > client, escrever "npm install axios" para 
+instalar a biblioteca; 
+4 - Após a instalação, é necessário voltar ao diretório geral e escrever "mvn spring-boot:run" para habilitar o
+back-end e a conexão com o MongoDB; 
+5 - Abrir o "inicio.html" para começar a rodar o projeto em si. 
